@@ -1,0 +1,6 @@
+## set as global variable the views element OR 
+## use setInterval callback function to increase the value with a let variable starting value and setting the global variable to += let 
+## optional used regex function to format thosuands with comma e.g.:
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+} 
